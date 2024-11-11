@@ -1,0 +1,14 @@
+name: Hello World  # Workflow Name
+
+on:                # Trigger on push events
+  push:
+    branches:
+      - main
+
+jobs:
+  hello-job:       # Job Name
+    runs-on: ubuntu-latest  # Run Job on ubuntu-latest runner
+    steps:
+      - name: Echo text    # Step Name
+        run: echo "Hello, world!"  # Command to run
+
