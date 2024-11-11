@@ -3,7 +3,7 @@ name: Hello World  # Workflow Name
 on:                # Trigger on push events
   push:
     branches:
-      - main
+      - master
 
 jobs:
   hello-job:       # Job Name
